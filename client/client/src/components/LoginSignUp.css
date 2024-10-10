@@ -1,0 +1,53 @@
+.login-signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  background-image: url('https://i.pinimg.com/564x/f0/c6/b4/f0c6b41e7f02c012ea3342facfb8f8f0.jpg'); /* Replace with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.form-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  backdrop-filter: blur(5px); /* Optional: Add blur to the background inside the form */
+}
+
+form input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color:#0c690c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #2d842d;
+}
+
+span {
+  color: #0d720d;
+  cursor: pointer;
+}
+
+span:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,49 @@
+.App {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Style the navigation card */
+.nav-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.nav-card h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #2c6633;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 15px 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #2c6633;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #e0f2e0;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #c1e0c1;
+}
